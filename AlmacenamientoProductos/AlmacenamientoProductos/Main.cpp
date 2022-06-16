@@ -23,7 +23,7 @@ int main() {
 	while (!salidaAplicacion) {
 
 		imprimirMenu();
-		salidaAplicacion = accionesMenu(peliculas , TAMANIO, &peliculasIntroducidas);
+		salidaAplicacion = accionesMenu(peliculas , TAMANIO, peliculasIntroducidas);
 
 	}
 

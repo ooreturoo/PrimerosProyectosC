@@ -1,4 +1,5 @@
 
+#include "AccionesAplicacion.h" //Esto posiblemente este mal. Comprobar y corregir.
 
 void imprimirMenu();
-bool accionesMenu(string[], int, int*);
+bool accionesMenu(std::string[], int, int&);
