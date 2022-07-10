@@ -23,8 +23,14 @@ int main() {
 	while (!salidaAplicacion) {
 
 		imprimirMenu();
-		salidaAplicacion = accionesMenu(peliculas , TAMANIO, peliculasIntroducidas);
+		try {
+			salidaAplicacion = accionesMenu(peliculas, TAMANIO, peliculasIntroducidas);
+		}
+		catch(exception& e) {
 
+			cout << e.what();
+
+		}
 	}
 
 
